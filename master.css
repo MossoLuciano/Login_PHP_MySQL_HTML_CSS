@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+
+
+
+.logo{
+    padding: 10px;
+}
+
+.navBar{
+    padding: 15px;
+}
+
+.opciones{
+    /*Permito flexibilidad de la lista*/
+    display: flex;
+    /*Quito formato de la lista*/
+    list-style-type: none;
+}
+
+.header{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ultimasNoticias{
+    font-size: 15px;
+}
+
+.ademas{
+    font-size: 15px;
+}
+
+.opciones li a{
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(0, 9, 139);
+}
+
+.opciones li a:hover{
+    padding: 5px;
+    background-color: rgb(247, 247, 244);
+    border-radius: 10px;
+}
+
+/*Footer.php*/
+.footer{
+    background-color: rgb(158, 162, 218);
+    padding: 10px;
+    color: rgb(8, 8, 8);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main{
+    padding: 15px;
+}
