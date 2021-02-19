@@ -25,6 +25,8 @@
     font-size: 20px;
     display: flex;
     justify-content: space-between;
+    /* background-color: forestgreen; */
+    padding: 15px;
 }
 
 .ultimasNoticias{
@@ -50,9 +52,14 @@
 /*Footer.php*/
 .footer{
     background-color: rgb(158, 162, 218);
-    padding: 10px;
+    padding: 15px;
+    margin-left: 5px;
     color: rgb(8, 8, 8);
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.footer p{
+    font-size: 14px;
 }
 
 .main{
