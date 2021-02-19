@@ -65,3 +65,26 @@
 .main{
     padding: 15px;
 }
+
+/*Login.php*/
+.login{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tituloLogin{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+
+.formularioLogin input{
+    width: 90%;
+    height: 30px;
+    margin: 0.5rem;
+}
