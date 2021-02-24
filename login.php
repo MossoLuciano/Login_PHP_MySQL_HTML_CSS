@@ -16,10 +16,9 @@
 </div>
 
 <div class="login">
-    <form action="#" method="POST" class="formularioLogin">
+    <form action="#" method="POST" id="formularioLogin">
         <input type="email" name="email" class="email" placeholder="Email"><br><br>
         <input type="password" name="clave" class="clave" placeholder="Password"><br><br>
-        
         <input type="submit" value="Ingresar" name="ingresar" class="btn btn-sm btn-block btn-primary" id="ingresar">
         <input type="submit" value="Cancelar" name="cancelar" class="btn btn-sm btn-block btn-primary"><br><br>
         </div><br>
@@ -28,8 +27,8 @@
 
 <div class="vinculoRegistro">
     <a href="registro.php">Registrarme</a>
-</div><br><br><br><br>
+</div><br>
 
 <?php
-   require "footer.php";
+    require "footer.php";
 ?>
