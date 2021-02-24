@@ -28,8 +28,6 @@
     <a href="registro.php">Registrarme</a>
 </div><br><br><br><br>
 
-
-
 <?php
-    include_once "footer.php";
+   require "footer.php";
 ?>
