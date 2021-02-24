@@ -66,14 +66,23 @@
 
 /*Login.php*/
 .login{
-    width: 100%;
-    max-width: 600px;
+    width: 430px;
+    height: 270px;
     margin: 0 auto;
-    display: flex;
+    display: flex; 
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    border: 2px solid rgb(0, 9, 139);
+}
+
+.btn{
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+#ingresar{
+    padding-left: 10px;
 }
 
 .vinculoRegistro{
@@ -82,9 +91,8 @@
 
 .tituloLogin{
     text-align: center;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-decoration: underline;
     color: rgb(0, 9, 139);
+    font-size: 25px;
 }
 
 #formularioLogin input email password{
@@ -101,7 +109,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* background-color: forestgreen; */
 }
 
 .formularioRegistro input email password{
@@ -111,6 +118,13 @@
 }
 
 .tituloRegistro{
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(0, 9, 139);
+}
+
+/*Contacto.php*/
+.tituloContacto{
     text-align: center;
     text-decoration: underline;
     color: rgb(0, 9, 139);
