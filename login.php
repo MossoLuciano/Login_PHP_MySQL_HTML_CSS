@@ -25,7 +25,3 @@
 <div class="vinculoRegistro">
     <a href="registro.php">Registrarme</a>
 </div><br>
-
-<?php
-    require "footer.php";
-?>
