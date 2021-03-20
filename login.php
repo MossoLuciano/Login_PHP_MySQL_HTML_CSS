@@ -10,19 +10,15 @@
         VerificarUsuario($email, $clave);
     }
 ?>
-<div class="mainLogin">
-    <div class="login">
-        <h2 class="tituloLogin">Login</h2><br>
-        <form action="#" method="POST" id="formularioLogin">
-            <input type="email" name="email" class="email" placeholder="Email"><br><br>
-            <input type="password" name="clave" class="clave" placeholder="Password"><br><br>
-            <input type="submit" value="Ingresar" name="ingresar" class="btn btn-sm  btn-primary" id="ingresar">
-            <input type="submit" value="Cancelar" name="cancelar" class="btn btn-sm  btn-primary"><br>
-        </form>
-    </div><br>
-    <div class="vinculoRegistro">
+
+<div class="login">
+    <h2 class="tituloLogin">Login</h2>
+    <form action="#" method="POST" id="formularioLogin">
+        <input type="email" name="email" class="email" placeholder="Email">
+        <input type="password" name="clave" class="clave" placeholder="Password">
+        <input type="submit" value="Ingresar" name="ingresar" class="btn btn-sm  btn-primary" id="ingresar">
+    </form>
     <a href="registro.php">Registrarme</a>
-    </div><br>
 </div>
    
 
