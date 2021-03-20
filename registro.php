@@ -15,14 +15,9 @@
 </div>
 
 <div class="registro">
-    
     <form action="#" method="POST" class="formularioRegistro">
         <input type="email" name="email" class="email" placeholder="Email"><br><br>
         <input type="password" name="clave" class="clave" placeholder="Password"><br><br>
         <input type="submit" value="Guardar" name="guardar" class="btn btn-xs btn-block btn-primary"><br><br>
     </form>
-</div><br><br><br><br>
-
-<?php
-    include_once "footer.php";
-?>
+</div>
