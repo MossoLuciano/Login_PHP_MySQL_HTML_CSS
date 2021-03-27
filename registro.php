@@ -10,14 +10,14 @@
 	}
 ?>
 
-<div class="tituloRegistro">
-    <h2 class="tituloRegistro">Registro de usuario:</h2><br>   
-</div>
-
 <div class="registro">
+    <div id="tituloRegistro">
+        <h2>Registro de usuario:</h2>  
+    </div>
+    
     <form action="#" method="POST" class="formularioRegistro">
-        <input type="email" name="email" class="email" placeholder="Email"><br><br>
-        <input type="password" name="clave" class="clave" placeholder="Password"><br><br>
-        <input type="submit" value="Guardar" name="guardar" class="btn btn-xs btn-block btn-primary"><br><br>
+        <input type="email" name="email" class="email" placeholder="Email">
+        <input type="password" name="clave" class="clave" placeholder="Password">
+        <input type="submit" value="Guardar" name="guardar" class="btn btn-xs btn-block btn-primary" id="guardar">
     </form>
 </div>

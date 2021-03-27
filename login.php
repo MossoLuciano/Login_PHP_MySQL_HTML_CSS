@@ -12,7 +12,9 @@
 ?>
 
 <div class="login">
-    <h2 class="tituloLogin">Login</h2>
+    <div id="tituloLogin">
+        <h2>Login</h2>
+    </div>
     <form action="#" method="POST" id="formularioLogin">
         <input type="email" name="email" class="email" placeholder="Email">
         <input type="password" name="clave" class="clave" placeholder="Password">
