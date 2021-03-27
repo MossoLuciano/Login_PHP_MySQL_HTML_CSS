@@ -5,6 +5,8 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
 }
 
+/*Header*/
+
 .logo{
     padding: 10px;
 }
@@ -27,6 +29,41 @@
     justify-content: space-between;
     background-color: lightblue;
     padding: 15px;
+}
+
+.section1{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.section2{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.section3{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.section4{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.section5{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.section6{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.section7{
+    margin-bottom: 20px;
+    margin-top: 10px;
 }
 
 .ultimasNoticias{
@@ -66,6 +103,10 @@
     background-color:rgb(174, 177, 216);
     font-family: 'Courier New', Courier, monospace;
     color: black;
+}
+
+.main a{
+    margin-bottom: 20px;
 }
 
 .main p{
