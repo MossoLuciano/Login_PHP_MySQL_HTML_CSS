@@ -1,5 +1,6 @@
 <?php
     require "header.php";
+    require "refBootstrap.php";
 ?>
 
 <div class="tituloContacto">
@@ -10,7 +11,7 @@
         <input type="text" name="nombre" id="nombre" placeholder="Nombre">
         <input type="email" name="email" id="email" placeholder="Email"><br>
         <textarea name="comentario" id="" cols="30" rows="10" placeholder="Comentarios"></textarea>
-        <input type="submit" name="enviar" id="enviar">
+        <input type="submit" name="enviar" id="enviar" class="btn btn-sm  btn-primary">
     </form>
 </div>
 

@@ -52,7 +52,7 @@
 /*Footer.php*/
 .footer{
     background-color: rgb(0, 9, 139);
-    padding: 15px;
+    padding: 10px;
     color: white;
 }
 
@@ -79,6 +79,7 @@
     height: 360px;
     margin-top: 100px;
     margin-left: 34%;
+    margin-bottom: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -120,6 +121,7 @@
     height: 360px;
     margin-top: 100px;
     margin-left: 34%;
+    margin-bottom: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -162,7 +164,7 @@
 #contacto{
     border: 2px solid rgb(0, 9, 139);
     width: 50%;
-    height: 450px;
+    height: 500px;
     margin-left: 25%;
     margin-top: 30px;
     margin-bottom: 85px;
@@ -179,25 +181,14 @@
 #formularioContacto input{
     width: 90%;
     height: 35px;
-    margin: 0.6rem;
+    margin: 0.7rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 14px;
     margin-top: 20px;
 }
 
 textarea{
-    margin-bottom: 30px;
-}
-
-#enviar{
-    background-color: blue;
-    border: 1px solid lightslategrey;
-    color: white;
-}
-
-#enviar:hover{
-    background-color: rgb(46, 111, 250);
-    color: white;
+    margin-bottom: 50px;
 }
 
 textarea{

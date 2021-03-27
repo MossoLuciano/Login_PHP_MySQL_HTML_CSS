@@ -21,3 +21,7 @@
         <input type="submit" value="Guardar" name="guardar" class="btn btn-xs btn-block btn-primary" id="guardar">
     </form>
 </div>
+
+<?php
+    require "footer.php";
+?>

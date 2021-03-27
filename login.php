@@ -23,5 +23,7 @@
     <a href="registro.php">Registrarme</a>
 </div>
    
-
+<?php
+    require "footer.php";
+?>
 

@@ -1,6 +1,6 @@
 <?php
     include_once "header.php";
-    
+    require "refBootstrap.php";
 ?>
     <div class="main">
         <h2 class="subtitulo">Ultimas noticias: </h2><hr><br>
